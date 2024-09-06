@@ -1,0 +1,12 @@
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Domain\bin\Debug\net8.0\CashFlow.Domain.deps.json
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Domain\bin\Debug\net8.0\CashFlow.Domain.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Domain\bin\Debug\net8.0\CashFlow.Domain.pdb
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.AssemblyInfoInputs.cache
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.AssemblyInfo.cs
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.csproj.CoreCompileInputs.cache
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.sourcelink.json
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\refint\CashFlow.Domain.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.pdb
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\ref\CashFlow.Domain.dll

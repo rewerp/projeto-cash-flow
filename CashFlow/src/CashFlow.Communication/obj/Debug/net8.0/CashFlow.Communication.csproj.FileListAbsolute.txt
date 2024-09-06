@@ -1,0 +1,12 @@
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Communication\bin\Debug\net8.0\CashFlow.Communication.deps.json
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Communication\bin\Debug\net8.0\CashFlow.Communication.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Communication\bin\Debug\net8.0\CashFlow.Communication.pdb
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.AssemblyInfoInputs.cache
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.AssemblyInfo.cs
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.csproj.CoreCompileInputs.cache
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.sourcelink.json
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\refint\CashFlow.Communication.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\CashFlow.Communication.pdb
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Communication\obj\Debug\net8.0\ref\CashFlow.Communication.dll
