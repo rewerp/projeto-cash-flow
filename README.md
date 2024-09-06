@@ -25,6 +25,6 @@ Esse projeto é parte do curso de Formação C# criado pela Rocketseat.
 
 ## 🔀 Fluxo e dependências
 
-![Fluxo](C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\ProjectStructure.png)
+![Fluxo](https://raw.githubusercontent.com/rewerp/projeto-cash-flow/main/ProjectStructure.png)
 
 ## 🚧 Em construção...
