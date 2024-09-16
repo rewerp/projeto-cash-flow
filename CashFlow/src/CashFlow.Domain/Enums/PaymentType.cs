@@ -1,6 +1,6 @@
-﻿namespace CashFlow.Communication.Emuns;
+﻿namespace CashFlow.Domain.Enums;
 
-public enum PaymentTypeEnum
+public enum PaymentType
 {
   Cash = 0,
   CreditCard = 1,

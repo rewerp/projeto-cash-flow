@@ -29,6 +29,6 @@ public class RequestCreateExpenseJsonBuilder
       .RuleFor(r => r.Description, faker => faker.Finance.AccountName())
       .RuleFor(r => r.Amount, faker => faker.Finance.Amount())
       .RuleFor(r => r.Date, faker => faker.Date.Past())
-      .RuleFor(r => r.PaymentType, faker => faker.PickRandom<PaymentTypeEnum>());
+      .RuleFor(r => r.PaymentType, faker => faker.PickRandom<PaymentType>());
   }
 }

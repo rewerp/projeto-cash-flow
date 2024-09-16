@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4CF57B86-6970-470B-9719-4A65336329F4}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\devrepo\\csharp\\rocketseatcsharp\\projeto-cash-flow\\cashflow\\src\\cashflow.application\\usecases\\expenses\\create\\createexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CF57B86-6970-470B-9719-4A65336329F4}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\create\\createexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82FEBD4A-CA96-48A0-A9CB-93A73C1C8AF2}|src\\CashFlow.Api\\CashFlow.Api.csproj|c:\\devrepo\\csharp\\rocketseatcsharp\\projeto-cash-flow\\cashflow\\src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82FEBD4A-CA96-48A0-A9CB-93A73C1C8AF2}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CF57B86-6970-470B-9719-4A65336329F4}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\devrepo\\csharp\\rocketseatcsharp\\projeto-cash-flow\\cashflow\\src\\cashflow.application\\usecases\\expenses\\create\\createexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CF57B86-6970-470B-9719-4A65336329F4}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\create\\createexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{590DCBFF-A5E9-47DE-8622-75ABA0987AD6}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|c:\\devrepo\\csharp\\rocketseatcsharp\\projeto-cash-flow\\cashflow\\src\\cashflow.domain\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590DCBFF-A5E9-47DE-8622-75ABA0987AD6}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflow.domain\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A20765A-194B-4AB1-B18C-226F0DDC2FC0}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|c:\\devrepo\\csharp\\rocketseatcsharp\\projeto-cash-flow\\cashflow\\src\\cashflow.infrastructure\\dataaccess\\cashflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A20765A-194B-4AB1-B18C-226F0DDC2FC0}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\dataaccess\\cashflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,20 +70,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "CashFlowDbContext.cs",
+              "DocumentMoniker": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "ToolTip": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T20:03:01.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "ToolTip": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "RelativeToolTip": "src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T19:45:14.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CreateExpenseUseCase.cs",
               "DocumentMoniker": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Create\\CreateExpenseUseCase.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Create\\CreateExpenseUseCase.cs",
               "ToolTip": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Create\\CreateExpenseUseCase.cs",
               "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Create\\CreateExpenseUseCase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T21:01:14.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ExpensesController.cs",
               "DocumentMoniker": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.Api\\Controllers\\ExpensesController.cs",

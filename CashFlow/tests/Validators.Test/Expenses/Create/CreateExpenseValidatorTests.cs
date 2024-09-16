@@ -85,7 +85,7 @@ public class CreateExpenseValidatorTests
     // Arrange
     var validator = new CreateExpenseValidator();
     var request = RequestCreateExpenseJsonBuilder.Build();
-    request.PaymentType = (PaymentTypeEnum)700;
+    request.PaymentType = (PaymentType)700;
 
     // Act
     var result = validator.Validate(request);
