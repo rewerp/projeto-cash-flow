@@ -1,8 +1,6 @@
-﻿using CashFlow.Application.UseCases.Expenses;
+﻿using CashFlow.Application.UseCases.Expenses.Create;
 using CashFlow.Communication.Requests;
-using CashFlow.Communication.Responses;
 using Microsoft.AspNetCore.Mvc;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CashFlow.Api.Controllers;
 
@@ -13,23 +11,29 @@ public class ExpensesController : ControllerBase
   [HttpPost]
   public IActionResult Create([FromBody] RequestCreateExpenseJson request)
   {
-    try
-    {
-      var response = new CreateExpenseUseCase().Execute(request);
+    //try
+    //{
+    //  var response = new CreateExpenseUseCase().Execute(request);
 
-      return Created(string.Empty, response);
-    }
-    catch (ArgumentException ex)
-    {
-      var error = new ResponseErrorJson(errorMessage: ex.Message);
+    //  return Created(string.Empty, response);
+    //}
+    //catch (ErrorOnValidationException ex)
+    //{
+    //  var error = new ResponseErrorJson(ex.Errors);
 
-      return BadRequest(error);
-    }
-    catch
-    {
-      var error = new ResponseErrorJson(errorMessage: "Unknow error");
+    //  return BadRequest(error);
+    //}
+    //catch
+    //{
+    //  var error = new ResponseErrorJson("Unknow error");
 
-      return StatusCode(StatusCodes.Status500InternalServerError, error);
-    }
+    //  return StatusCode(StatusCodes.Status500InternalServerError, error);
+    //}
+
+
+    // Utilizando o Exception filter, dispensa o uso de Try/Catch
+    var response = new CreateExpenseUseCase().Execute(request);
+
+    return Created(string.Empty, response);
   }
 }
