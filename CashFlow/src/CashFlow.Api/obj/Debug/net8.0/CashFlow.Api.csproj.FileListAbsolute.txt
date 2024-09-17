@@ -45,3 +45,8 @@ C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\b
 C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\fr\CashFlow.Exception.resources.dll
 C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
 C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\pt-PT\CashFlow.Exception.resources.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\MySqlConnector.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll

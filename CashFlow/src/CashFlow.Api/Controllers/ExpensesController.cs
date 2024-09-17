@@ -9,7 +9,9 @@ namespace CashFlow.Api.Controllers;
 public class ExpensesController : ControllerBase
 {
   [HttpPost]
-  public IActionResult Create([FromBody] RequestCreateExpenseJson request)
+  public IActionResult Create(
+      [FromServices] ICreateExpenseUseCase useCase,
+      [FromBody] RequestCreateExpenseJson request)
   {
     //try
     //{
@@ -32,7 +34,7 @@ public class ExpensesController : ControllerBase
 
 
     // Utilizando o Exception filter, dispensa o uso de Try/Catch
-    var response = new CreateExpenseUseCase().Execute(request);
+    var response = useCase.Execute(request);
 
     return Created(string.Empty, response);
   }
