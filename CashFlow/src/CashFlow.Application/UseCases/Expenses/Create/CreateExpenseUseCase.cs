@@ -1,4 +1,5 @@
-﻿using CashFlow.Communication.Requests;
+﻿using AutoMapper;
+using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
 using CashFlow.Domain.Entities;
 using CashFlow.Domain.Repositories;
@@ -12,31 +13,35 @@ public class CreateExpenseUseCase : ICreateExpenseUseCase
   // o atributo ReadOnly, vai permitir que essa propriedade seja alterada apenas dentro do construtor
   private readonly IExpensesRepository _repository;
   private readonly IUnitOfWork _unitOfWork;
+  private readonly IMapper _mapper;
 
-  public CreateExpenseUseCase(IExpensesRepository repository, IUnitOfWork unitOfWork)
+  public CreateExpenseUseCase(IExpensesRepository repository, IUnitOfWork unitOfWork, IMapper mapper)
   {
     _repository = repository;
     _unitOfWork = unitOfWork;
+    _mapper = mapper;
   }
 
-  public ResponseCreateExpenseJson Execute(RequestCreateExpenseJson request)
+  public async Task<ResponseCreateExpenseJson> Execute(RequestCreateExpenseJson request)
   {
     Validate(request);
 
-    var entity = new Expense
-    {
-      Title = request.Title,
-      Description = request.Description,
-      Date = request.Date,
-      Amount = request.Amount,
-      PaymentType = (Domain.Enums.PaymentType)request.PaymentType
-    };
+    //var entity = new Expense
+    //{
+    //  Title = request.Title,
+    //  Description = request.Description,
+    //  Date = request.Date,
+    //  Amount = request.Amount,
+    //  PaymentType = (Domain.Enums.PaymentType)request.PaymentType
+    //};
 
-    _repository.Add(entity);
+    var entity = _mapper.Map<Expense>(request);
 
-    _unitOfWork.Commit();
+    await _repository.Add(entity);
 
-    return new ResponseCreateExpenseJson();
+    await _unitOfWork.Commit();
+
+    return _mapper.Map<ResponseCreateExpenseJson>(entity);
   }
 
   private void Validate(RequestCreateExpenseJson request)

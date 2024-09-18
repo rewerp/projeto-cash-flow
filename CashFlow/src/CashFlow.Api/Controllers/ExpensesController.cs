@@ -1,5 +1,6 @@
 ﻿using CashFlow.Application.UseCases.Expenses.Create;
 using CashFlow.Communication.Requests;
+using CashFlow.Communication.Responses;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CashFlow.Api.Controllers;
@@ -9,32 +10,14 @@ namespace CashFlow.Api.Controllers;
 public class ExpensesController : ControllerBase
 {
   [HttpPost]
-  public IActionResult Create(
+  [ProducesResponseType(typeof(ResponseCreateExpenseJson), StatusCodes.Status201Created)]
+  [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest)]
+  public async Task<IActionResult> Create(
       [FromServices] ICreateExpenseUseCase useCase,
       [FromBody] RequestCreateExpenseJson request)
   {
-    //try
-    //{
-    //  var response = new CreateExpenseUseCase().Execute(request);
-
-    //  return Created(string.Empty, response);
-    //}
-    //catch (ErrorOnValidationException ex)
-    //{
-    //  var error = new ResponseErrorJson(ex.Errors);
-
-    //  return BadRequest(error);
-    //}
-    //catch
-    //{
-    //  var error = new ResponseErrorJson("Unknow error");
-
-    //  return StatusCode(StatusCodes.Status500InternalServerError, error);
-    //}
-
-
     // Utilizando o Exception filter, dispensa o uso de Try/Catch
-    var response = useCase.Execute(request);
+    var response = await useCase.Execute(request);
 
     return Created(string.Empty, response);
   }
