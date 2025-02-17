@@ -11,18 +11,18 @@ namespace CashFlow.Application.UseCases.Expenses.Create;
 public class CreateExpenseUseCase : ICreateExpenseUseCase
 {
   // o atributo ReadOnly, vai permitir que essa propriedade seja alterada apenas dentro do construtor
-  private readonly IExpensesRepository _repository;
+  private readonly IExpensesWriteOnlyRepository _repository;
   private readonly IUnitOfWork _unitOfWork;
   private readonly IMapper _mapper;
 
-  public CreateExpenseUseCase(IExpensesRepository repository, IUnitOfWork unitOfWork, IMapper mapper)
+  public CreateExpenseUseCase(IExpensesWriteOnlyRepository repository, IUnitOfWork unitOfWork, IMapper mapper)
   {
     _repository = repository;
     _unitOfWork = unitOfWork;
     _mapper = mapper;
   }
 
-  public async Task<ResponseCreateExpenseJson> Execute(RequestCreateExpenseJson request)
+  public async Task<ResponseCreateExpenseJson> Execute(RequestExpenseJson request)
   {
     Validate(request);
 
@@ -44,9 +44,9 @@ public class CreateExpenseUseCase : ICreateExpenseUseCase
     return _mapper.Map<ResponseCreateExpenseJson>(entity);
   }
 
-  private void Validate(RequestCreateExpenseJson request)
+  private void Validate(RequestExpenseJson request)
   {
-    var result = new CreateExpenseValidator().Validate(request);
+    var result = new ExpenseValidator().Validate(request);
 
     if (!result.IsValid)
     {

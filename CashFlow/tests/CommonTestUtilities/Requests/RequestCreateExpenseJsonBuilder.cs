@@ -6,7 +6,7 @@ namespace CommonTestUtilities.Requests;
 
 public class RequestCreateExpenseJsonBuilder
 {
-  public static RequestCreateExpenseJson Build()
+  public static RequestExpenseJson Build()
   {
     /* Primeira forma de usar o Faker do BOGUS */
 
@@ -24,7 +24,7 @@ public class RequestCreateExpenseJsonBuilder
 
     /* Forma alternativa de usar o Faker do BOGUS */
 
-    return new Faker<RequestCreateExpenseJson>()
+    return new Faker<RequestExpenseJson>()
       .RuleFor(r => r.Title, faker => faker.Finance.AccountName())
       .RuleFor(r => r.Description, faker => faker.Finance.AccountName())
       .RuleFor(r => r.Amount, faker => faker.Finance.Amount())

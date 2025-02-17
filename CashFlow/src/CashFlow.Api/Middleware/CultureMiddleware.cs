@@ -1,5 +1,4 @@
 ﻿using System.Globalization;
-using System.Linq;
 
 namespace CashFlow.Api.Middleware;
 
@@ -20,7 +19,7 @@ public class CultureMiddleware
 
     var cultureInfo = new CultureInfo("en");
 
-    if (!string.IsNullOrWhiteSpace(requestedCulture) && supportedLanguages.Exists(language => language.Equals(requestedCulture)))
+    if (!string.IsNullOrWhiteSpace(requestedCulture) && supportedLanguages.Exists(language => language.Name.Equals(requestedCulture)))
     {
       cultureInfo = new CultureInfo(requestedCulture);
     }

@@ -1,9 +1,8 @@
-﻿using CashFlow.Application.UseCases.Expenses.Create;
+﻿using CashFlow.Application.UseCases.Expenses;
 using CashFlow.Communication.Emuns;
-using CashFlow.Communication.Requests;
 using CashFlow.Exception;
 using CommonTestUtilities.Requests;
-using FluentAssertions;
+using Shouldly;
 
 namespace Validators.Test.Expenses.Create;
 
@@ -13,7 +12,7 @@ public class CreateExpenseValidatorTests
   public void Success()
   {
     /* Arrange - Todos os objetos necessários para executar os testes */
-    var validator = new CreateExpenseValidator();
+    var validator = new ExpenseValidator();
 
     /* Utilizando dados fixos para o teste */
     //var request = new RequestCreateExpenseJson
@@ -41,7 +40,11 @@ public class CreateExpenseValidatorTests
      * de forma mais fluída e com uma sintaxe mais simples 
      * Basta adicionar o using e seguir o exemplo abaixo */
 
-    result.IsValid.Should().BeTrue();
+    // .NET Assert nativo
+    //Assert.True(result.IsValid);
+
+    // SHOULDLY
+    result.IsValid.ShouldBeTrue();
   }
 
   [Theory]
@@ -51,48 +54,68 @@ public class CreateExpenseValidatorTests
   public void ErrorTitleEmpty(string title)
   {
     // Arrange
-    var validator = new CreateExpenseValidator();
+    var validator = new ExpenseValidator();
     var request = RequestCreateExpenseJsonBuilder.Build();
     request.Title = title;
 
     // Act
     var result = validator.Validate(request);
 
-    //Assert
-    result.IsValid.Should().BeFalse();
-    result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.TITLE_REQUIRED));
+    // .NET Assert nativo
+    //Assert.False(result.IsValid);
+    //result.Errors.ForEach(e => Assert.Contains(ResourceErrorMessages.TITLE_REQUIRED, e.ErrorMessage));
+
+    // SHOULDLY
+    result.IsValid.ShouldBeFalse();
+    result.Errors.ShouldContain(e => e.ErrorMessage.Equals(ResourceErrorMessages.TITLE_REQUIRED));
   }
 
   [Fact]
   public void ErrorDateFuture()
   {
     // Arrange
-    var validator = new CreateExpenseValidator();
+    var validator = new ExpenseValidator();
     var request = RequestCreateExpenseJsonBuilder.Build();
     request.Date = DateTime.Now.AddDays(1);
 
     // Act
     var result = validator.Validate(request);
 
-    //Assert
-    result.IsValid.Should().BeFalse();
-    result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.EXPENSE_CANNOT_FOR_THE_FUTURE));
+    // Fluent Assertions
+    //result.IsValid.Should().BeFalse
+    //result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.EXPENSE_CANNOT_FOR_THE_FUTURE));
+
+    // .NET Assert nativo
+    //Assert.False(result.IsValid);
+    //result.Errors.ForEach(e => Assert.Contains(ResourceErrorMessages.EXPENSE_CANNOT_FOR_THE_FUTURE, e.ErrorMessage));
+
+    // SHOULDLY
+    result.IsValid.ShouldBeFalse();
+    result.Errors.ShouldContain(e => e.ErrorMessage.Equals(ResourceErrorMessages.EXPENSE_CANNOT_FOR_THE_FUTURE));
   }
 
   [Fact]
   public void ErrorPaymentTypeInvalid()
   {
     // Arrange
-    var validator = new CreateExpenseValidator();
+    var validator = new ExpenseValidator();
     var request = RequestCreateExpenseJsonBuilder.Build();
     request.PaymentType = (PaymentType)700;
 
     // Act
     var result = validator.Validate(request);
 
-    //Assert
-    result.IsValid.Should().BeFalse();
-    result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.PAYMENT_TYPE_INVALID));
+    // Fluent Assertions
+    //result.IsValid.Should().BeFalse();
+    //result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.PAYMENT_TYPE_INVALID));
+
+    // .NET Assert nativo
+    //Assert.False(result.IsValid);
+    //result.Errors.ForEach(e => Assert.Contains(ResourceErrorMessages.PAYMENT_TYPE_INVALID, e.ErrorMessage));
+
+    // SHOULDLY
+    result.IsValid.ShouldBeFalse();
+    result.Errors.ShouldContain(e => e.ErrorMessage.Equals(ResourceErrorMessages.PAYMENT_TYPE_INVALID));
   }
 
   [Theory]
@@ -102,15 +125,23 @@ public class CreateExpenseValidatorTests
   public void ErrorAmountInvalid(decimal amount)
   {
     // Arrange
-    var validator = new CreateExpenseValidator();
+    var validator = new ExpenseValidator();
     var request = RequestCreateExpenseJsonBuilder.Build();
     request.Amount = amount;
 
     // Act
     var result = validator.Validate(request);
 
-    //Assert
-    result.IsValid.Should().BeFalse();
-    result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.AMOUNT_MUST_BE_GREATER_THAN_ZERO));
+    // Fluent Assertions
+    //result.IsValid.Should().BeFalse();
+    //result.Errors.Should().ContainSingle().And.Contain(e => e.ErrorMessage.Equals(ResourceErrorMessages.AMOUNT_MUST_BE_GREATER_THAN_ZERO));
+
+    // .NET Assert nativo
+    //Assert.False(result.IsValid);
+    //result.Errors.ForEach(e => Assert.Contains(ResourceErrorMessages.AMOUNT_MUST_BE_GREATER_THAN_ZERO, e.ErrorMessage));
+
+    // SHOULDLY
+    result.IsValid.ShouldBeFalse();
+    result.Errors.ShouldContain(e => e.ErrorMessage.Equals(ResourceErrorMessages.AMOUNT_MUST_BE_GREATER_THAN_ZERO));
   }
 }

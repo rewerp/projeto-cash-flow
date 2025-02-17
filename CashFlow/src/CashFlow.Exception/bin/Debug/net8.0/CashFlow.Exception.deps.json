@@ -11,9 +11,6 @@
           "CashFlow.Exception.dll": {}
         },
         "resources": {
-          "en-US/CashFlow.Exception.resources.dll": {
-            "locale": "en-US"
-          },
           "fr/CashFlow.Exception.resources.dll": {
             "locale": "fr"
           },

@@ -25,7 +25,10 @@
       },
       "CashFlow.Communication/1.0.0": {
         "runtime": {
-          "CashFlow.Communication.dll": {}
+          "CashFlow.Communication.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

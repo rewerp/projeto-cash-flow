@@ -118,18 +118,36 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AMOUNT_MUST_BE_GREATER_THAN_ZERO" xml:space="preserve">
-    <value>O montante deve ser maior que zero</value>
+    <value>O montante deve ser maior que zero.</value>
+  </data>
+  <data name="EMAIL_ALREADY_REGISTERED" xml:space="preserve">
+    <value>Esse e-mail já está a ser utilizado.</value>
+  </data>
+  <data name="EMAIL_EMPTY" xml:space="preserve">
+    <value> e-mail do utilizador é obrigatório.</value>
+  </data>
+  <data name="EMAIL_INVALID" xml:space="preserve">
+    <value>O e-mail do utilizador é inválido.</value>
   </data>
   <data name="EXPENSE_CANNOT_FOR_THE_FUTURE" xml:space="preserve">
-    <value>As despesas não podem ser para o futuro</value>
+    <value>As despesas não podem ser para o futuro.</value>
+  </data>
+  <data name="EXPENSE_NOT_FOUND" xml:space="preserve">
+    <value>Despesa não localizada.</value>
+  </data>
+  <data name="NAME_EMPTY" xml:space="preserve">
+    <value>O nome do utilizador é obrigatório.</value>
+  </data>
+  <data name="PASSWORD_INVALID" xml:space="preserve">
+    <value>Palavra-passe inválida! A palavra-passe deve ter, no mínimo, 8 caracteres, contendo pelo menos uma letra maiúscula, um número e um caractere especial (exemplo: !, $, *).</value>
   </data>
   <data name="PAYMENT_TYPE_INVALID" xml:space="preserve">
-    <value>O tipo de pagamento é inválido</value>
+    <value>O tipo de pagamento é inválido.</value>
   </data>
   <data name="TITLE_REQUIRED" xml:space="preserve">
-    <value>O título é obrigatório</value>
+    <value>O título é obrigatório.</value>
   </data>
   <data name="UNKNOW_ERROR" xml:space="preserve">
-    <value>Erro desconhecido</value>
+    <value>Erro desconhecido.</value>
   </data>
 </root>

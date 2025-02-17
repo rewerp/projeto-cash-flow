@@ -15,11 +15,15 @@ public class AutoMapping : Profile
 
   private void RequestToEntity()
   {
-    CreateMap<RequestCreateExpenseJson, Expense>();
+    CreateMap<RequestExpenseJson, Expense>();
+    CreateMap<RequestUserJson, User>()
+      .ForMember(dest => dest.Password, config => config.Ignore());
   }
 
   private void EntityToResponse()
   {
     CreateMap<Expense, ResponseCreateExpenseJson>();
+    CreateMap<Expense, ResponseShortExpenseJson>();
+    CreateMap<Expense, ResponseExpenseJson>();
   }
 }
