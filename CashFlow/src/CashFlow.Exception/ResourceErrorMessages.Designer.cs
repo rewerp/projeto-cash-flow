@@ -70,7 +70,7 @@ namespace CashFlow.Exception {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This email is already in use..
+        ///   Looks up a localized string similar to This e-mail is already in use..
         /// </summary>
         public static string EMAIL_ALREADY_REGISTERED {
             get {
@@ -79,7 +79,7 @@ namespace CashFlow.Exception {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The user&apos;s email is required..
+        ///   Looks up a localized string similar to The user&apos;s e-mail is required..
         /// </summary>
         public static string EMAIL_EMPTY {
             get {
@@ -88,11 +88,20 @@ namespace CashFlow.Exception {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The user&apos;s email is invalid..
+        ///   Looks up a localized string similar to The user&apos;s e-mail is invalid..
         /// </summary>
         public static string EMAIL_INVALID {
             get {
                 return ResourceManager.GetString("EMAIL_INVALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to E-mail or password is invalid..
+        /// </summary>
+        public static string EMAIL_OR_PASSWORD_INVALID {
+            get {
+                return ResourceManager.GetString("EMAIL_OR_PASSWORD_INVALID", resourceCulture);
             }
         }
         

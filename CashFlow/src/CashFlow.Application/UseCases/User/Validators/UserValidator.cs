@@ -1,4 +1,5 @@
-﻿using CashFlow.Communication.Requests;
+﻿using CashFlow.Application.UseCases.Validators;
+using CashFlow.Communication.Requests;
 using CashFlow.Exception;
 using FluentValidation;
 

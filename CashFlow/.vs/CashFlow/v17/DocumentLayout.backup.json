@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{4CF57B86-6970-470B-9719-4A65336329F4}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\devrepo\\csharp\\rocketseatcsharp\\projeto-cash-flow\\cashflow\\src\\cashflow.application\\usecases\\user\\create\\createuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CF57B86-6970-470B-9719-4A65336329F4}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\user\\create\\createuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CF57B86-6970-470B-9719-4A65336329F4}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\devrepo\\csharp\\rocketseatcsharp\\projeto-cash-flow\\cashflow\\src\\cashflow.application\\usecases\\user\\validators\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CF57B86-6970-470B-9719-4A65336329F4}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\user\\validators\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CF57B86-6970-470B-9719-4A65336329F4}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\devrepo\\csharp\\rocketseatcsharp\\projeto-cash-flow\\cashflow\\src\\cashflow.application\\usecases\\expenses\\create\\createexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CF57B86-6970-470B-9719-4A65336329F4}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\create\\createexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A20765A-194B-4AB1-B18C-226F0DDC2FC0}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|c:\\devrepo\\csharp\\rocketseatcsharp\\projeto-cash-flow\\cashflow\\src\\cashflow.infrastructure\\dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A20765A-194B-4AB1-B18C-226F0DDC2FC0}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82FEBD4A-CA96-48A0-A9CB-93A73C1C8AF2}|src\\CashFlow.Api\\CashFlow.Api.csproj|c:\\devrepo\\csharp\\rocketseatcsharp\\projeto-cash-flow\\cashflow\\src\\cashflow.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82FEBD4A-CA96-48A0-A9CB-93A73C1C8AF2}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,71 +50,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PasswordValidator.cs",
-              "DocumentMoniker": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Application\\UseCases\\User\\Validators\\PasswordValidator.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\User\\Validators\\PasswordValidator.cs",
-              "ToolTip": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Application\\UseCases\\User\\Validators\\PasswordValidator.cs",
-              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\User\\Validators\\PasswordValidator.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T20:00:40.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateExpenseUseCase.cs",
-              "DocumentMoniker": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Create\\CreateExpenseUseCase.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Create\\CreateExpenseUseCase.cs",
-              "ToolTip": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Create\\CreateExpenseUseCase.cs",
-              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Create\\CreateExpenseUseCase.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T19:56:37.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateUserUseCase.cs",
-              "DocumentMoniker": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Application\\UseCases\\User\\Create\\CreateUserUseCase.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\User\\Create\\CreateUserUseCase.cs",
-              "ToolTip": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Application\\UseCases\\User\\Create\\CreateUserUseCase.cs",
-              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\User\\Create\\CreateUserUseCase.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAqwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T18:44:09.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T18:36:24.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Api\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\DevRepo\\CSharp\\RocketseatCSharp\\projeto-cash-flow\\CashFlow\\src\\CashFlow.Api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "src\\CashFlow.Api\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T18:41:46.967Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -3,7 +3,7 @@ using FluentValidation;
 using FluentValidation.Validators;
 using System.Text.RegularExpressions;
 
-namespace CashFlow.Application.UseCases.User.Validators;
+namespace CashFlow.Application.UseCases.Validators;
 
 public partial class PasswordValidator<T> : PropertyValidator<T, string>
 {

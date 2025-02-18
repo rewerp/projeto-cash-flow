@@ -5,9 +5,9 @@ using CashFlow.Communication.Responses;
 using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.Users;
 using CashFlow.Domain.Security.Cryptography;
+using CashFlow.Domain.Security.Tokens;
 using CashFlow.Exception;
 using CashFlow.Exception.ExceptionsBase;
-using DocumentFormat.OpenXml.Presentation;
 using FluentValidation.Results;
 
 namespace CashFlow.Application.UseCases.User.Create;
@@ -19,18 +19,21 @@ public class CreateUserUseCase : ICreateUserUseCase
   private readonly IUserReadOnlyRepository _userReadOnlyRepository;
   private readonly IUserWriteOnlyRepository _userWriteOnlyRepository;
   private readonly IUnitOfWork _unitOfWork;
+  private readonly IAccessTokenGenerator _tokenGenerator;
 
   public CreateUserUseCase(
     IMapper mapper, 
     IPasswordEncrypter passwordEncrypter, 
     IUserReadOnlyRepository userReadOnlyRepository, 
-    IUserWriteOnlyRepository userWriteOnlyRepository, 
+    IUserWriteOnlyRepository userWriteOnlyRepository,
+    IAccessTokenGenerator tokenGenerator,
     IUnitOfWork unitOfWork)
   {
     _mapper = mapper;
     _passwordEncrypter = passwordEncrypter;
     _userReadOnlyRepository = userReadOnlyRepository;
     _userWriteOnlyRepository = userWriteOnlyRepository;
+    _tokenGenerator = tokenGenerator;
     _unitOfWork = unitOfWork;
   }
 
@@ -48,7 +51,8 @@ public class CreateUserUseCase : ICreateUserUseCase
 
     return new ResponseCreateUserJson
     {
-      Name = user.Name
+      Name = user.Name,
+      Token = _tokenGenerator.Generate(user)
     };
   }
 

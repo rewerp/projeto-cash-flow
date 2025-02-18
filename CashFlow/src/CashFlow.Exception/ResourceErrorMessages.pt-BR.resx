@@ -121,13 +121,16 @@
     <value>O valor deve ser maior que zero.</value>
   </data>
   <data name="EMAIL_ALREADY_REGISTERED" xml:space="preserve">
-    <value>Esse email já está sendo utilizado.</value>
+    <value>Esse e-mail já está sendo utilizado.</value>
   </data>
   <data name="EMAIL_EMPTY" xml:space="preserve">
     <value>O e-mail do usuário é obrigatório.</value>
   </data>
   <data name="EMAIL_INVALID" xml:space="preserve">
     <value>O e-mail do usuário é inválido.</value>
+  </data>
+  <data name="EMAIL_OR_PASSWORD_INVALID" xml:space="preserve">
+    <value>E-mail ou senha inválidos.</value>
   </data>
   <data name="EXPENSE_CANNOT_FOR_THE_FUTURE" xml:space="preserve">
     <value>As despesas não podem ser para o futuro.</value>

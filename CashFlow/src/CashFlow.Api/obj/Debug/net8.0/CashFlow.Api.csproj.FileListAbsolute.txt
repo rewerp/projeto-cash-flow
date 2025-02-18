@@ -140,3 +140,12 @@ C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\b
 C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\DevRepo\CSharp\RocketseatCSharp\projeto-cash-flow\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
